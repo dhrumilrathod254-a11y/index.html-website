@@ -1,0 +1,173 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#111;
+color:white;
+}
+
+/* Navbar */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+background:#000;
+}
+
+.logo{
+color:#00ffff;
+}
+
+.nav-links{
+list-style:none;
+display:flex;
+}
+
+.nav-links li{
+margin-left:25px;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+transition:0.3s;
+}
+
+.nav-links a:hover{
+color:#00ffff;
+}
+
+/* Hero Section */
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:80px;
+}
+
+.hero-text h1{
+font-size:50px;
+}
+
+.hero-text span{
+color:#00ffff;
+}
+
+.hero-text p{
+margin:20px 0;
+}
+
+.hero-text button{
+padding:12px 25px;
+border:none;
+background:#00ffff;
+cursor:pointer;
+}
+
+.hero-img img{
+width:300px;
+border-radius:50%;
+}
+
+/* About */
+
+.about{
+text-align:center;
+padding:60px;
+}
+
+/* Skills */
+
+.skills{
+padding:60px;
+text-align:center;
+}
+
+.skills-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.skill-card{
+background:#222;
+padding:20px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.skill-card:hover{
+background:#00ffff;
+color:black;
+}
+
+/* Projects */
+
+.projects{
+padding:60px;
+text-align:center;
+}
+
+.project-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:30px;
+}
+
+.project-card{
+background:#222;
+padding:25px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.project-card:hover{
+transform:scale(1.05);
+background:#00ffff;
+color:black;
+}
+
+/* Contact */
+
+.contact{
+padding:60px;
+text-align:center;
+}
+
+form{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+input, textarea{
+width:300px;
+margin:10px;
+padding:10px;
+border:none;
+}
+
+button{
+padding:12px 25px;
+background:#00ffff;
+border:none;
+cursor:pointer;
+}
+
+/* Footer */
+
+footer{
+background:black;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
